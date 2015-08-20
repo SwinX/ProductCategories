@@ -6,8 +6,3 @@ target 'CategoryTree' do
   pod 'AFNetworking', '~> 2.5.4'
   pod 'SVProgressHUD', '~> 1.1.3'
 end
-
-target 'CategoryTreeTests' do
-  pod 'Kiwi', '~> 2.4.0'
-end
-

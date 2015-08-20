@@ -42,16 +42,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "49281EE81B7D23CA003E1684"
-               BuildableName = "CategoryTreeTests.xctest"
-               BlueprintName = "CategoryTreeTests"
-               ReferencedContainer = "container:CategoryTree.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
