@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class ProductCategory;
+
+@interface ProductCategoriesViewController : UIViewController
+
+@property (nonatomic, strong) ProductCategory* parentCategory;
 
 
 @end

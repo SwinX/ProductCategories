@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 
+#import "AFHTTPRequestOperationManager+SharedManager.h"
+
+#import "Constants.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +20,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [AFHTTPRequestOperationManager setupSharedManagerWithURL:[NSURL URLWithString:BaseURL]];
+    
     return YES;
 }
 
